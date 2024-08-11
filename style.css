@@ -1,0 +1,25 @@
+body{
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between;
+
+}
+.headerLogo img{
+width: 30px;
+height: auto;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    margin: 0 5px;
+}
+a{
+    text-decoration: none ;
+    color: #E5E7EB ;
+    font-size: 18px;
+}
