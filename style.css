@@ -53,16 +53,22 @@ a{
 }
 .clubsMessi{
     color:#2b3849;
+    padding: 20px 70px
+}
+h2{
+    flex-grow: 1;
+    text-align: center;
+}
+.clubsMessiSubContainer{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
-.clubsMessi div{
+.clubsMessiSubContainer div{
     width: 200px;
 }
-.clubsMessi div img{
-    max-width: 200px;
+.clubsMessiSubContainer div img{
+    width: 200px;
     height: 200px;
 }
 p {
