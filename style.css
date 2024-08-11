@@ -1,7 +1,14 @@
 body{
     min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
 }
-
+.introduction{
+    background-color: #1f2937;
+    padding: 0 55px;
+    padding-bottom: 70px;
+    padding-top: 10px;
+}
 .header{
     display: flex;
     justify-content:space-between;
@@ -22,4 +29,26 @@ a{
     text-decoration: none ;
     color: #E5E7EB ;
     font-size: 18px;
+}
+.inforAboutMessi{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    flex-wrap: wrap;
+    color: #F9FAF8;
+    
+}
+.inforAboutMessi div{
+    max-width: 500px;
+    margin-bottom: 25px;
+}
+.inforAboutMessi h1{
+    font-size: 48px;
+
+}
+.inforAboutMessi img{
+    max-width: 600px;
+    height: auto;
+    flex-grow: 1;
+   
 }
