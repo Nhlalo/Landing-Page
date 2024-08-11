@@ -49,6 +49,22 @@ a{
 .inforAboutMessi img{
     max-width: 600px;
     height: auto;
-    flex-grow: 1;
-   
+  
+}
+.clubsMessi{
+    color:#2b3849;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.clubsMessi div{
+    width: 200px;
+}
+.clubsMessi div img{
+    max-width: 200px;
+    height: 200px;
+}
+p {
+    text-align: center;
 }
