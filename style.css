@@ -70,7 +70,43 @@ h2{
 .clubsMessiSubContainer div img{
     width: 200px;
     height: 200px;
+    border-radius: 15px;
 }
 .clubsMessiSubContainer div p {
     text-align: center;
+}
+.qouteByMessi{
+   background-color: #E5E7EB; 
+   color: #1b375d;
+   font-size: 36px;
+   font-style: italic;
+   padding: 40px 150px;
+}
+.qouteByMessi span{
+    font-weight: bold;
+    color: #1F2937;
+}
+.signUp{
+    padding: 80px;
+}
+.signUp > div{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+}
+.signUp div button{
+    background-color: transparent;
+    color:white;
+    
+    width: 100px;
+    height: 30px;
+    border-color: white;
+    border-radius: 5px;
+}
+.signUp > div > div > div{
+    font-weight: bolder;
+    font-size: 20px;
+
 }
